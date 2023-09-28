@@ -1,0 +1,205 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(69, 65, 65);
+    /* Set the background color to gray */
+    color: white;
+    /* Set the text color to white for better visibility */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+    /* Set the header background color to black */
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+.about,
+.projects {
+    padding: 30px 0;
+}
+
+.projects .project-item {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #010101;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.linkedin-icon {
+
+    width: 70px;
+    /* Adjust the width and height as needed for your design */
+    height: 70px;
+    border-radius: 70%;
+    /* Makes the image round */
+    border: 1px solid #8c8585;
+    /* Optional: Add a border for better visibility */
+
+}
+
+.leetcode-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    border: 1px solid #8c8585;
+
+}
+
+.github-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 70%;
+    border: 1px solid #8c8585;
+}
+
+.social-icons a {
+    margin-right: 220px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.resume-button-container {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.resume-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #65c0fc;
+}
+
+@media (max-width: 768px) {
+    .resume-button-container {
+        position: relative;
+        top: auto;
+        right: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .resume-button {
+        display: inline-block;
+        margin-right: 0;
+    }
+}
+
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.skills ul li::before {
+    content: "\2022"; /* Use a bullet point as a list item marker */
+    color: #3498db; /* Change bullet point color if needed */
+    font-weight: bold;
+    margin-right: 10px; /* Adjust spacing between bullet and text */
+}
+
+.skills h3 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.about h1,
+.skills h2,
+.social h2 ,
+
+.certification h2 , 
+.studies h2 {
+    border-bottom: 2px solid #3498db; /* Adjust the color and thickness as needed */
+    display: inline-block;
+    padding-bottom: 5px; /* Adjust the spacing between text and underline */
+    margin-bottom: 20px; /* Adjust the spacing below the section title */
+}
+
+.certification {
+    padding: 30px 0;
+}
+
+.certification h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white; /* Adjust the color as needed */
+}
+
+.certification p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.certification a {
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: underline; /* Ensure underline for the link */
+}
+
+.certification a:hover {
+    text-decoration: none; /* Remove underline on hover if needed */
+}
+
+.studies .highlight {
+    font-weight: bold;
+    float: right;
+}
+
+.studies .highlight {
+    font-weight: bold;
+}
+
+.studies .bold {
+    font-weight: bold;
+}
+
+.studies .underline {
+    text-decoration: underline;
+}
+
+.studies .italic {
+    font-style: italic;
+}
+
